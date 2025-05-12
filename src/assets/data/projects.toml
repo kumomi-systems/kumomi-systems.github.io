@@ -1,0 +1,15 @@
+[wakatiwai]
+repo        = "https://github.com/somecollagist/wakatiwai"
+tags        = ["UEFI", "low-level"]
+people      = ["somecollagist"]
+description_brief = """
+A simple and configurable UEFI bootloader, written in Rust.
+"""
+description_long = """
+Designed as a simplified and modularised alternative to [GRUB](https://en.wikipedia.org/wiki/GNU_GRUB), wakatiwai offers a clean interface to manage boot options
+on a UEFI system.
+
+Current features include:
+ - JSON-customisable with simple integrated text editor
+ - Modular file system and boot option drivers
+"""

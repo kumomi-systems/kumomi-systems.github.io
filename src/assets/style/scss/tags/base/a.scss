@@ -1,0 +1,20 @@
+@use "../../themes/theme";
+
+a {
+  color: var(--accent);
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover,
+	&:active,
+	&:focus,
+	&:focus-visible,
+	&:focus-within,
+	&:target {
+    color: var(--accent-bright);
+  }
+
+  &:visited {
+    color: var(--accent-dim);
+  }
+}

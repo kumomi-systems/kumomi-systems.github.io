@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.1 (93de688d07, 2025-03-30)"
+   sodipodi:docname="person_blank.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.1103786"
+     inkscape:cx="85.556403"
+     inkscape:cy="187.77379"
+     inkscape:window-width="1902"
+     inkscape:window-height="1022"
+     inkscape:window-x="9"
+     inkscape:window-y="49"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path4"
+       style="fill:#999999;stroke:#999999;stroke-width:31.4984;stroke-dasharray:none"
+       inkscape:label="body"
+       d="m 84.217261,400.96992 c 36.355049,59.16242 101.288409,95.28111 171.293809,95.28088 70.69682,1.2e-4 136.16541,-36.82996 172.29302,-96.92535 -24.0507,-43.16449 -54.25627,-76.61952 -88.10859,-97.58716 -23.67266,23.67266 -48.53077,37.78713 -83.22995,37.78703 -34.69918,10e-5 -61.45444,-16.01151 -83.22996,-37.78703 -34.28691,21.23725 -64.82619,55.28038 -89.018329,99.23163 z"
+       sodipodi:nodetypes="ccccccc" />
+    <circle
+       style="display:inline;fill:#808080;stroke:#808080;stroke-width:9.99984;stroke-dasharray:none"
+       id="path1-1-3-6"
+       cx="256"
+       cy="228"
+       r="75.000084"
+       inkscape:label="head" />
+    <ellipse
+       style="display:inline;fill:none;stroke:#808080;stroke-width:31.9996;stroke-dasharray:none"
+       id="path1-3"
+       cx="256.00003"
+       cy="256.00003"
+       rx="240.00023"
+       ry="240.00024"
+       inkscape:label="ring" />
+  </g>
+</svg>

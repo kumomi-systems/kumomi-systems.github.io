@@ -57,10 +57,6 @@
         .collapsible-icon {
           width: 2vmax;
         }
-
-        .collapsible-title {
-          // font-size: 3vmax;
-        }
       }
     }
 

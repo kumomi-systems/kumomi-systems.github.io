@@ -31,7 +31,7 @@
     </div>
     <div class="project-about">
       <div class="project-label monospace">
-        <a class="project-name" :href="`/projects/${name}`">{{ name }}</a>
+        <router-link class="project-name" :to="`/projects/${name}`">{{ name }}</router-link>
         <div class="project-tags">
           [
           <span v-for="tag in tags.slice(0,5)">
@@ -53,12 +53,12 @@
       <div class="project-people monospace" v-if="people">
         [
           <span v-for="person in people.slice(0,5)">
-            <a v-if="people[people.slice(0,5).length-1] != person" :href="`/people#${person}`">
+            <router-link v-if="people[people.slice(0,5).length-1] != person" :to="`/people#${person}`">
               {{ person }},
-            </a>
-            <a v-else :href="`/people#${person}`">
+            </router-link>
+            <router-link v-else :to="`/people#${person}`">
               {{ person }}
-            </a>
+            </router-link>
           </span>
           ]
       </div>

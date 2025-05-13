@@ -58,9 +58,9 @@
       <collapsible title="People">
         <ul class="monospace project-list">
           <li v-for="person in project.people">
-            <a :href="`/people#${person}`">
+            <router-link :to="`/people#${person}`">
               {{ person }}
-            </a>
+            </router-link>
           </li>
         </ul>
       </collapsible>

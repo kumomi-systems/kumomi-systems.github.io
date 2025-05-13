@@ -45,12 +45,12 @@
       <div class="person-projects monospace" v-if="projects">
         [
           <span v-for="project in projects.slice(0,5)">
-            <a v-if="projects[projects.slice(0,5).length-1] != project" :href="`projects/${project}`">
+            <router-link v-if="projects[projects.slice(0,5).length-1] != project" :to="`projects/${project}`">
               {{ project }},
-            </a>
-            <a v-else :href="`projects/${project}`">
+            </router-link>
+            <router-link v-else :to="`projects/${project}`">
               {{ project }}
-            </a>
+            </router-link>
           </span>
           ]
       </div>

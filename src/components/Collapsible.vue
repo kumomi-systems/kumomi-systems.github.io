@@ -29,8 +29,8 @@
     <button @click="flipCollapse(title)">
       <div class="monospace">
         <div class="collapsible-icon">
-          <div v-if="collapsed">▼</div>
-          <div v-else>▲</div>
+          <div v-if="collapsed">+</div>
+          <div v-else>-</div>
         </div>
         <span class="collapsible-title">{{ title }}</span>
       </div>
@@ -49,28 +49,32 @@
       color: var(--foreground);
 
       div {
-        display: inline;
+        display: inline-block;
 
-        font-size: 1.25em;
+        font-size: 1.5vh;
         font-weight: bolder;
 
         .collapsible-icon {
-          margin-right: 1em;
+          width: 2vmax;
+        }
+
+        .collapsible-title {
+          // font-size: 3vmax;
         }
       }
     }
 
     .collapsible-content {
-      max-height: 0px;
+      max-height: 0;
       overflow: hidden;
 
       transition: max-height 0.25s ease-in-out;
 
       >:first-child {
-        margin-left: 0.7em;
-        padding: 0.5em 0em 0.5em 1.5em;
+        margin-left: 2vmax;
+        padding: 0.5vmin 0 0.5vmin 1.5vmin;
 
-        border-width: 0em 0em 0em 0.1em;
+        border-width: 0 0 0 0.1vmax;
         border-color: var(--foreground);
         border-style: solid;
       }

@@ -34,19 +34,22 @@
       </li>
     </ul>
   </div>
+  <div id="navbar-blur"/>
 </template>
 
 <style lang="scss">
-  $navbar_height: 2em;
+  $navbar_height: 5vmin;
 
   #navbar {
-    position: absolute;
-    top: 1em;
-    left: 50%;
-    height: $navbar_height;
-    transform: translateX(-50%);
-    width: calc(100% - 4em);
-    font-size: 1.5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100% - 2vmin);
+    padding: 1vmin 1vmin 0vmin;
+
+    font-size: 1.5vmax;
+    background-color: var(--background);
+    z-index: 1;
 
     * {
       animation: fadeInDown 0.5s;
@@ -54,12 +57,13 @@
 
     ul {
       list-style: none;
-      margin: 0em;
+      margin: 0;
+      padding: 0;
       vertical-align: middle;
       
       li {
         float: right;
-        margin: 0em 1em;
+        margin: 0 1vmax;
         height: $navbar_height;
         line-height: $navbar_height;
       }
@@ -72,5 +76,19 @@
         }
       }
     }
+  }
+
+  #navbar-blur {
+    position: fixed;
+    top: calc($navbar_height + 1vmin);
+    left: 0;
+    width: 100%;
+    height: 5vmin;
+    z-index: 1;
+    background-image: linear-gradient(
+      to bottom,
+      var(--background),
+      #00000000
+    );
   }
 </style>

@@ -32,10 +32,10 @@ import Coffee from '@/components/support/Coffee.vue';
     #support-vectors {
       display: flex;
       flex-direction: column;
-      margin: 1.5em;
+      margin: 1.5vmin;
       align-items: center;
       * {
-        margin: 0.5em 0em;
+        margin: 0.5vmin 0;
       }
     }
   }

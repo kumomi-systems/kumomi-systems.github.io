@@ -12,7 +12,7 @@
 		transform: translate(-50%, -50%);
 		text-align: center;
     opacity: 2%;
-    font-size: 25em;
+    font-size: 25vmin;
 
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */

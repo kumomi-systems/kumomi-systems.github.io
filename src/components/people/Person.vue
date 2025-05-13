@@ -27,7 +27,7 @@
 <template>
   <div class="person">
     <div class="person-photo">
-      <img :src="photo" height="250em"/>
+      <img :src="photo"/>
     </div>
     <div class="person-about">
       <div class="person-label">
@@ -38,10 +38,11 @@
         <span class="person-position" v-if="position">{{ position }}</span>
       </div>
       <hr>
-      <br>
       <span class="person-description" v-if="description">
         {{ description }}
       </span>
+      <br>
+      <br>
       <div class="person-projects monospace" v-if="projects">
         [
           <span v-for="project in projects.slice(0,5)">
@@ -63,37 +64,37 @@
     display: flex;
     flex: 1;
 
-    .person-photo>img {
-      border-radius: 20%;
+    .person-photo {
+      >img {
+        border-radius: 20%;
+        height: 10vmax;
+      }
     }
 
     .person-about {
       position: relative;
       width: 100%;
-      padding: 2em;
+      padding: 5vmin;
 
       .person-label {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
-        font-size: 1.75em;
 
         .person-name {
           font-weight: 900;
           float: left;
+          font-size: 2.5vmax;
         }
 
         .person-position {
           float: right;
+          font-size: 2vmax;
         }
       }
 
       .person-description {
         font-style: italic;
-      }
-
-      .person-projects {
-        position: absolute;
-        bottom: 1em;
       }
     }
   }

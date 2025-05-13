@@ -26,8 +26,8 @@
 <template>
   <div class="project">
     <div class="project-photo">
-      <img v-if="photo" :src="photo" height="250em"/>
-      <img v-else :src="get_logo()" height="250em"/>
+      <img v-if="photo" :src="photo"/>
+      <img v-else :src="get_logo()"/>
     </div>
     <div class="project-about">
       <div class="project-label monospace">
@@ -46,10 +46,11 @@
         </div>
       </div>
       <hr>
-      <br>
       <span class="project-description" v-if="description_brief">
         {{ description_brief }}
       </span>
+      <br>
+      <br>
       <div class="project-people monospace" v-if="people">
         [
           <span v-for="person in people.slice(0,5)">
@@ -71,37 +72,37 @@
     display: flex;
     flex: 1;
 
-    .project-photo>img {
-      border-radius: 20%;
+    .project-photo {
+      >img {
+        border-radius: 20%;
+        height: 10vmax;
+      }
     }
 
     .project-about {
       position: relative;
       width: 100%;
-      padding: 2em;
+      padding: 5vmin;
 
       .project-label {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
-        font-size: 1.75em;
 
         .project-name {
           font-weight: 900;
           float: left;
+          font-size: 2.5vmax;
         }
 
         .project-tags {
           float: right;
+          font-size: 2vmax;
         }
       }
 
       .project-description {
         font-style: italic;
-      }
-
-      .project-people {
-        position: absolute;
-        bottom: 1em;
       }
     }
   }

@@ -31,7 +31,7 @@ import PageContent from "@/components/PageContent.vue";
     padding: 0;
 
     li {
-      padding: 1em;
+      padding: 1vmin;
     }
   }
 </style>

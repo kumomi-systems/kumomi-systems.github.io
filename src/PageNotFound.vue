@@ -16,7 +16,7 @@
 
     h1 {
       font-weight: bold;
-      font-size: 8em;
+      font-size: 8vmin;
     }
   }
 </style>

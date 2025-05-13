@@ -21,7 +21,7 @@
 <style lang="scss">
   div#frame {
     main {
-      margin: 6em 10em 5em;
+      margin: 10vmin;
     }
   }
 </style>

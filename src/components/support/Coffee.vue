@@ -9,11 +9,12 @@
 <style lang="scss">
   #support-coffee {
     display: inline-block;
-    padding: 1em;
+    padding: 1vmin;
     background: var(--background-dim);
-    border-radius: 1em;
+    border-radius: 1vmin;
+    text-align: center;
     #support-coffee-label {
-      font-size: 2em;
+      font-size: 2vmax;
     }
   }
 </style>

@@ -22,8 +22,8 @@
   <div id="project-title">
     <div id="project-card">
       <div id="project-photo">
-        <img v-if="project.photo" :src="project.photo" height="250em"/>
-        <img v-else :src="get_logo()" height="250em"/>
+        <img v-if="project.photo" :src="project.photo"/>
+        <img v-else :src="get_logo()"/>
       </div>
       <div id="project-name">
         <div>
@@ -70,7 +70,7 @@
 
 <style lang="scss">
   hr {
-    margin: 2em 0em;
+    margin: 2vmin 0;
   }
 
   #project-title {
@@ -86,8 +86,11 @@
     display: flex;
     flex: 1;
     
-    #project-photo>img {
-      border-radius: 20%;
+    #project-photo {
+      >img {
+        border-radius: 20%;
+        height: 10vmax;
+      }
     }
 
     #project-name {
@@ -96,13 +99,14 @@
 
       div {
         display: flex;
+        flex: 0 1 auto;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 100%;
 
         h1 {
-          font-size: 5em;
+          font-size: 5vmin;
         }
 
         div {
@@ -118,11 +122,11 @@
 
   ul.project-list {
     list-style: none;
-    margin: 0em;
-    padding-left: 1em;
+    margin: 0;
+    padding-left: 1vmin;
     
     li {
-      padding: 0.5em 0em;
+      padding: 0.5vmin 0;
     }
   }
 </style>

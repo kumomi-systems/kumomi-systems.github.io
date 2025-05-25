@@ -1,5 +1,5 @@
 [wakatiwai]
-repo        = "https://github.com/somecollagist/wakatiwai"
+repo        = "https://github.com/kumomi-systems/wakatiwai"
 tags        = ["UEFI", "low-level"]
 people      = ["somecollagist"]
 description_brief = """

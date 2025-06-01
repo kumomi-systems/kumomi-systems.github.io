@@ -1,7 +1,7 @@
 <script setup lang="js">
   import PageContent from '@/components/PageContent.vue';
-import PageTitle from '@/components/PageTitle.vue';
-import Coffee from '@/components/support/Coffee.vue';
+  import PageTitle from '@/components/PageTitle.vue';
+  import Coffee from '@/components/support/Coffee.vue';
 </script>
 
 <template>

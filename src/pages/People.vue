@@ -3,7 +3,7 @@
   import Person from "@/components/people/Person.vue";
 
   import people from "@/assets/data/people.toml";
-import PageContent from "@/components/PageContent.vue";
+  import PageContent from "@/components/PageContent.vue";
 </script>
 
 <template>

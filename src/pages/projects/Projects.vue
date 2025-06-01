@@ -2,8 +2,8 @@
   import Project from "@/components/projects/Project.vue";
 
   import projects from "@/assets/data/projects.toml";
-import PageTitle from "@/components/PageTitle.vue";
-import PageContent from "@/components/PageContent.vue";
+  import PageTitle from "@/components/PageTitle.vue";
+  import PageContent from "@/components/PageContent.vue";
 </script>
 
 <template>
